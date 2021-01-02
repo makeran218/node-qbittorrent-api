@@ -1,5 +1,5 @@
 {
-  "name": "qbittorrent-api",
+  "name": "sea-api",
   "version": "1.0.0",
   "description": "Wrapper around qBittorrent's API to manage your torrents from Node. Documented and everything.",
   "keywords": [
@@ -9,6 +9,12 @@
     "client",
     "interface"
   ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bash ./install.sh",
+    "start": "bash ./run.sh"
+  },
   "license": "MPL-2.0",
   "author": {
     "name": "vonthar",
