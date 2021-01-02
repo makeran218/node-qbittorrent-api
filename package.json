@@ -2,6 +2,11 @@
   "name": "sea-api",
   "version": "1.0.0",
   "description": "Wrapper around qBittorrent's API to manage your torrents from Node. Documented and everything.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
   "keywords": [
     "qbittorrent",
     "bittorrent",
@@ -9,6 +14,7 @@
     "client",
     "interface"
   ],
+  
   "license": "MPL-2.0",
   "author": {
     "name": "vonthar",
@@ -22,11 +28,7 @@
   "bugs": {
     "url": "https://github.com/vonthar/node-qbittorrent-api/issues"
   },
-  "main": "src/qbt.js",
-  "scripts": {
-    "start": "node test/qbt-tests.js",
-    "lint": "eslint ."
-  },
+  
   "dependencies": {
     "async": "^1.5.2",
     "ht": "0.0.2",
