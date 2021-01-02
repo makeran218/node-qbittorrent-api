@@ -1,5 +1,7 @@
 ﻿# Description
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Wrapper around [qBittorrent's API](https://github.com/qbittorrent/qBittorrent/wiki/WebUI-API-Documentation) to manage your torrents from Node. Documented and everything.
 
 # Installation
