@@ -2,9 +2,9 @@
   "name": "sea-api",
   "version": "1.0.0",
   "description": "Wrapper around qBittorrent's API to manage your torrents from Node. Documented and everything.",
-  "main": "index.js",
+  "main": "src/qbt.js",
   "scripts": {
-    "start": "node index.js",
+    "test": "node test/qbt-tests.js",
     "lint": "eslint ."
   },
   "keywords": [
