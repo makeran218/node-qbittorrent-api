@@ -1,7 +1,7 @@
 ﻿var assert = require("assert");
 var qBittorrent = require("..");
 
-var session = qBittorrent.connect("localhost:$PORT");
+var session = qBittorrent.connect("localhost:80");
 session.version(function (error, data) {
   assert.ifError(error);
   assert.ok(data.startsWith("v"));
