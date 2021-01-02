@@ -24,7 +24,7 @@
   },
   "main": "src/qbt.js",
   "scripts": {
-    "run": "node test/qbt-tests.js",
+    "start": "node test/qbt-tests.js",
     "lint": "eslint ."
   },
   "dependencies": {
