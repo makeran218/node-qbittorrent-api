@@ -4,7 +4,7 @@
   "description": "Wrapper around qBittorrent's API to manage your torrents from Node. Documented and everything.",
   "main": "src/qbt.js",
   "scripts": {
-    "test": "node test/qbt-tests.js",
+    "start": "node test/qbt-tests.js",
     "lint": "eslint ."
   },
   "keywords": [
